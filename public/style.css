@@ -1,0 +1,65 @@
+.alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.alert-error {
+    background-color: #f44336;
+    color: white;
+}
+#todoForm
+{
+    width: 25%;
+    margin-inline: 36%;
+}
+
+#popupForm
+{
+    position: absolute;
+    margin-top: -11%;
+    position: absolute;
+    margin-top: 0%;
+    width: 25%;
+    margin-inline: 36%
+
+}
+#todos,table
+{
+    margin-inline: 36%;
+}
+#content{
+
+}
+@media screen and (max-width: 450px) {
+#todoForm
+{
+    width: 72% !important;
+    margin-inline: 10% !important;
+}
+#popupForm
+{
+    width: 72% !important;
+    margin-inline: 10% !important;
+}
+#todos,table
+{
+    margin-inline: 10% !important;
+}
+#content
+{}
+#heading
+ {
+    margin-top: 60% !important;
+} 
+}
+
